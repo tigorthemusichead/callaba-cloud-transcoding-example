@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.531d4664.css",
-    "main.js": "/static/js/main.d6c94252.js",
-    "static/js/787.1002a359.chunk.js": "/static/js/787.1002a359.chunk.js",
-    "index.html": "/index.html",
-    "main.531d4664.css.map": "/static/css/main.531d4664.css.map",
-    "main.d6c94252.js.map": "/static/js/main.d6c94252.js.map",
-    "787.1002a359.chunk.js.map": "/static/js/787.1002a359.chunk.js.map"
+    "main.css": "/callaba-cloud-transcoding-example/static/css/main.531d4664.css",
+    "main.js": "/callaba-cloud-transcoding-example/static/js/main.40449bfa.js",
+    "static/js/787.1002a359.chunk.js": "/callaba-cloud-transcoding-example/static/js/787.1002a359.chunk.js",
+    "index.html": "/callaba-cloud-transcoding-example/index.html",
+    "main.531d4664.css.map": "/callaba-cloud-transcoding-example/static/css/main.531d4664.css.map",
+    "main.40449bfa.js.map": "/callaba-cloud-transcoding-example/static/js/main.40449bfa.js.map",
+    "787.1002a359.chunk.js.map": "/callaba-cloud-transcoding-example/static/js/787.1002a359.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.531d4664.css",
-    "static/js/main.d6c94252.js"
+    "static/js/main.40449bfa.js"
   ]
 }
