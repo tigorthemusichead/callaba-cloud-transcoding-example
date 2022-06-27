@@ -5,9 +5,87 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #ffffff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.box{
+  width: 1000px;
+  margin: 20px auto;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  background: white;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.line{
+  border-bottom: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  position: relative;
+  padding: 10px;
+
+}
+
+.line input, .line button{
+  font-size: 16px;
+  width: 180px;
+  outline: none !important;
+}
+
+.line input{
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #B9B9B9;
+  padding-left: 10px;
+}
+
+.line button{
+  border: none;
+  height: 40px;
+  background: #b9b9b9;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.line button:hover, .toggler:hover, .line input:focus{
+  box-shadow: 0px 0px 1px 1px gray;
+}
+
+.line p{
+  font-size: 18px;
+}
+
+.inactive{
+  background: rgba(110, 110, 110, 0.24);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.code{
+  width: 70%;
+}
+
+.toggler{
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  font-weight: 700;
+  background: #b9b9b9;
+  height: 20px;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
 }
